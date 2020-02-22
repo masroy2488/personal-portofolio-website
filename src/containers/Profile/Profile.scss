@@ -1,0 +1,36 @@
+.ui.profile {
+    position: fixed;
+}
+
+.box {
+    margin: 0 30px;
+    width: 520px;
+    height: 580px;
+    display: flex;
+    // align-items: center;
+    // justify-content: center;
+}
+
+.box span {
+    font-size: 35px;
+    color: #31EDDE;
+}
+
+.soft {
+    border-radius: 10px;
+    box-shadow: 5px 5px 11px rgba(0,0,0,.15),
+                -5px -5px 11px rgba(255,255,255,.85);
+    border: 1px solid rgba(0,0,0,0.0);
+}
+
+.ui.list {
+    margin: 15px 15px 15px 15px !important;
+    width: 100%;
+}
+
+.imageShadow {
+    color: rgba(49,69,106,0.35);
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255,.85);
+    border: 1px solid rgba(0,0,0,0.0);
+}
